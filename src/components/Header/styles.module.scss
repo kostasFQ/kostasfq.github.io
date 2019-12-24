@@ -1,4 +1,49 @@
 .header {
-  height: 70px;
-  border-bottom: 2px solid black;
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  height: 200px;
+  width: 100%;
+
+  &__body {
+    display: flex;
+    position: relative;
+    justify-content: stretch;
+    border: solid black 1px;
+    border-radius: 15px;
+    margin-top: 5px;
+    width: 80%;
+    overflow: hidden;
+
+    &__description {
+      width: 50%;
+
+      &__name {
+        font-size: xx-large;
+      }
+
+    }
+    
+    &__contacts {
+      border: solid red 1px;
+      flex-direction: column;
+      flex-grow: 1;
+      list-style: none;
+      
+
+      &__social {
+        font-size: xx-large;
+      }
+      
+      &__item {
+        display: flex;
+        align-items: center;
+      }
+    }
+    
+    &__photo {
+      height: 150px;
+      border-radius: 5px;
+    }
+  }
 }

@@ -1,0 +1,41 @@
+.base {
+  height: 25px;
+  width: 25px;
+  display: block;
+}
+
+.email {
+  @extend .base;
+  background: url('./email.png') no-repeat center/100%;
+}
+
+.phone {
+  @extend .base;
+  background: url('./phone.png') no-repeat center/100%;
+}
+
+.skype {
+  @extend .base;
+  background: url('./skype.png') no-repeat center/100%;
+}
+
+.city {
+  @extend .base;
+  background: url('./city.png') no-repeat center/100%;
+}
+
+.address {
+  @extend .base;
+  background: url('./address.png') no-repeat center/100%;
+}
+
+.github {
+  @extend .base;
+  background: url('./github.png') no-repeat center/100%;
+}
+
+.linkedin {
+  @extend .base;
+  background: url('./linkedin.png') no-repeat center/100%;
+}
+
