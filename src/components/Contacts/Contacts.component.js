@@ -4,9 +4,7 @@ import { contacts } from 'assets/resume.json';
 
 import styles from './Contacts.module.scss';
 
-import { ReactComponent as Github } from 'assets/icons/github.svg';
-import { ReactComponent as Linked } from 'assets/icons/linked.svg';
-
+import Icon from 'components/Icons';
 const Contacts = () => {
   
   return (
@@ -16,15 +14,19 @@ const Contacts = () => {
         {
           Object.keys(contacts).map(i => (
             <li className={styles.contacts__container__list__item} key={i}>
-              <Field name={i} desc={contacts[i]} speed={100} />
+              <Icon type={i} /><Field desc={contacts[i]} speed={100} />
             </li>
             )
           )
         }
       </ul>
       <div className={styles.contacts__container__socials}>
-        <a href='https://github.com/kostasFQ' target='blank' width={12} className={styles.contacts__container__socials__item}><Github /></a>
-        <a href='https://www.linkedin.com/in/kanstantsin-asipenka-7b140611b/' target='blank' className={styles.contacts__container__socials__item}><Linked /></a>
+        <a href='https://github.com/kostasFQ' target='blank' className={styles.contacts__container__socials__item}>
+        <Icon type='github' />
+        </a>
+        <a href='https://www.linkedin.com/in/kanstantsin-asipenka-7b140611b/' target='blank' className={styles.contacts__container__socials__item}>
+          <Icon type='linkedIn' />
+        </a>
       </div>
     </div>
   )
