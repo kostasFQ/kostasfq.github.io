@@ -1,3 +1,22 @@
-.item {
-  font-size: small;
+.contacts{
+  &__container {
+    border-top: solid 2px rgb(121, 172, 45);
+
+    &__list {
+      
+      &__item {
+        font-size: small;
+        list-style: none;
+      }
+    }
+
+    &__socials {
+      text-align: end;
+
+      &__item {
+        margin: 0 5px 0 5px;
+      }
+    }
+
+  }
 }

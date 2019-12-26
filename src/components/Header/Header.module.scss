@@ -1,7 +1,6 @@
 .header {
   display: flex;
   flex-direction: column;
-  width: 80%;
 
   &__title {
     font-size: x-large;
@@ -15,5 +14,6 @@
     border-top: 2px solid rgb(121, 172, 45);
     margin-top: 10px;
     font-size: x-small;
+    height: 150px;
   }
 }
