@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "start";
+  src: url('assets/fonts/PressStart2P-Regular.ttf')
+}
+
+.container {
+  font-family: 'start';
+  color: rgb(121, 172, 45);
+  display: flex;
+  justify-content: center;
+}

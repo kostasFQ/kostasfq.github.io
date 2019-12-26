@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+
+  &__title {
+    font-size: x-large;
+  }
+  
+  &__description {
+    font-size: medium
+  }
+  
+  &__summary {
+    border-top: 2px solid rgb(121, 172, 45);
+    margin-top: 10px;
+    font-size: x-small;
+  }
+}
