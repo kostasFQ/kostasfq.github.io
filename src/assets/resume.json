@@ -7,6 +7,60 @@
     "skype": "tria-atista",
     "email": "kostasfq@gmail.com",
     "home": "Belarus, Brest."
-  }
+  },
+  "education": {
+    "university": "BREST STATE TECHNICAL UNIVERSITY",
+    "profession": "Engineer-builder",
+    "period": "09/2007 – 08/2013"
+  },
+  "experience": [
+    {
+      "organization": "OnePoint LTD",
+      "position": "QA engineer",
+      "period": "07/2018 – Present",
+      "location": "Brest",
+      "description": "Tool for manage games.",
+      "responsibility": [
+        "The project on creating, managing and supporting games for online casino with different users roles such a manager, administrator, creator.",
+        "Development tests to checking the basic requirement of business logic, GUI functional and Regression testing. ( Node.js, Webdriver.io).",
+        "Responses validation from back-end in CRUD operation. (Node.js, Chai, Mocha).",
+        "Fixing bugs in front-end.",
+        "Planning Regression and Functional Testing.",
+        "Creating test cases to ensure the proper test coverage of functional requirements."
+      ],
+      "stack": "NodeJS, JS(ES5-7), Jest, Lodash, NPM, WebPack, React/Redux, Babel, ESLint, Git, HTML5, CSS3, SASS."
+    },
+    {
+      "organization": "CyberGenesis",
+      "position": "Front-end developer",
+      "period": "02/2019 – 08/2019",
+      "location": "remote",
+      "description": "System of storing and processing documents.",
+      "responsibility": [
+        "Development of app architecture, FE development.",
+        "Implementation of the interaction between FE with BE.",
+        "Create responsive and dynamic user interface.",
+        "Cross-browser supporting, implementing business logic for GUI."
+      ],
+      "stack": "ReactJS, Redux, Redux-thunk, JS(ES6+), Jest, NPM, WebPack, Babel, ESLint, Git, HTML5, CSS3, SASS, Ant design."
+    },
+    {
+      "organization": "B&T solutions",
+      "position": "Front-end developer",
+      "period": "02/2018 – 05/2018",
+      "location": "remote",
+      "description": " IoT. Development GUI for smart houses.",
+      "responsibility": [
+        "Cross-browser supporting, implementing business logic for GUI.",
+        "Making pages that are cross-browser compatible.",
+        "Creating components for custom library."
+      ],
+      "stack": "ReactJS, JS(ES6+), NPM, ESLint, Git, HTML5, CSS3, SASS."
+    }
+  ],
+  "skills": [ "ReactJS", "Redux", "Redux-thunk", "Node.js", "Express.js", "Lodash", "NPM", "YARN", "Docker", "Babel", "ESLint",
+    "Mocha", "Chai", "Webpack", "MongoDB", "Mongoose", "GIT"
+  ],
+  "languages": [ "Russian", "English", "Polish" ]
 
 }

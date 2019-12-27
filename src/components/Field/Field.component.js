@@ -1,24 +1,25 @@
 import React, { useState, useEffect } from 'react';
 
-const Field = ({name = '', desc, speed, delay, className}) => {
+const Field = ({name = '', desc, speed, className}) => {
   const [string, setString] = useState('');
   const [i, setI] = useState(0);
+  const fullDesc = name !== '' ? `${name}: ${desc}` : desc ;
 
   useEffect(() => {
-    if (string.length === desc.length) return;
+    if (!desc || string.length === fullDesc.length) return;
     
     const intervalId = setInterval(() => {
-      setString(string + desc[i]);
+      setString(string + fullDesc[i]);
       setI(i + 1)
     }, speed);
 
     return () => { clearInterval(intervalId) };
 
-  }, [string, i, desc, speed]);
+  }, [string, i, fullDesc, speed, desc]);
   
   return (
     <div className={className}>
-      {name !== '' ? `${name}: ` : ''} {string}
+      {string}
     </div>
   )
 }
