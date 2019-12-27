@@ -11,7 +11,7 @@ function Languages() {
       <ul className={styles.languages__list}>
         {
           Object.keys(languages).map(i => (
-            <li  className={styles.languages__list__item} key={languages[i]}><Field desc={languages[i]} speed={50} /></li>
+            <li  className={styles.languages__list__item} key={languages[i]}>{languages[i]}</li>
           ))
         }
       </ul>

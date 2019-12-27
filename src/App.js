@@ -5,6 +5,8 @@ import Education from 'components/Education';
 import Experience from 'components/Experience';
 import Skills from 'components/Skills';
 import Languages from 'components/Languages';
+import About from 'components/About';
+import Footer from 'components/Footer';
 
 import styles from './App.module.scss';
 
@@ -18,6 +20,8 @@ function App() {
         <Experience />
         <Skills />
         <Languages />
+        <About />
+        <Footer />
       </div>
     </div>
   );

@@ -1,7 +1,7 @@
 {
   "name": "Kanstantsin Asipenka",
-  "position": "Front-end developer",
-  "summary": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.\nLorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  "position": "Front-end developer.",
+  "summary": "2+ years of works experience on production as QA engineer and at the same time as front-end developer.",
   "contacts": {
     "phone": "+375 33 6057868",
     "skype": "tria-atista",
@@ -24,9 +24,9 @@
         "The project on creating, managing and supporting games for online casino with different users roles such a manager, administrator, creator.",
         "Development tests to checking the basic requirement of business logic, GUI functional and Regression testing. ( Node.js, Webdriver.io).",
         "Responses validation from back-end in CRUD operation. (Node.js, Chai, Mocha).",
-        "Fixing bugs in front-end.",
         "Planning Regression and Functional Testing.",
-        "Creating test cases to ensure the proper test coverage of functional requirements."
+        "Creating test cases to ensure the proper test coverage of functional requirements.",
+        "Development front-end using React."
       ],
       "stack": "NodeJS, JS(ES5-7), Jest, Lodash, NPM, WebPack, React/Redux, Babel, ESLint, Git, HTML5, CSS3, SASS."
     },
@@ -47,7 +47,7 @@
     {
       "organization": "B&T solutions",
       "position": "Front-end developer",
-      "period": "02/2018 – 05/2018",
+      "period": "10/2017 – 04/2018",
       "location": "remote",
       "description": " IoT. Development GUI for smart houses.",
       "responsibility": [
@@ -58,9 +58,9 @@
       "stack": "ReactJS, JS(ES6+), NPM, ESLint, Git, HTML5, CSS3, SASS."
     }
   ],
-  "skills": [ "ReactJS", "Redux", "Redux-thunk", "Node.js", "Express.js", "Lodash", "NPM", "YARN", "Docker", "Babel", "ESLint",
+  "skills": [ "ReactJS", "Redux", "Redux-thunk", "Node.js", "Express.js", "Lodash", "Axios", "NPM", "YARN", "Docker", "Babel", "ESLint",
     "Mocha", "Chai", "Webpack", "MongoDB", "Mongoose", "GIT"
   ],
-  "languages": [ "Russian", "English", "Polish" ]
-
+  "languages": [ "Russian", "English", "Polish" ],
+  "about": "I've experience with manual, automation testing and front-end development. So I know the weak spots in the development UI, its implementation with a back-end. In current time more preferable for me is development UI using ReactJS.  "
 }

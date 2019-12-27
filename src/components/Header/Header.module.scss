@@ -11,10 +11,9 @@
   }
   
   &__summary {
-    border-top: 2px solid rgb(121, 172, 45);
     padding-top: .3em;
     margin-top: 10px;
-    font-size: x-small;
-    height: 150px;
+    font-size: small;
+    min-height: 40px;
   }
 }
