@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.11255c62.chunk.css",
+    "main.js": "/static/js/main.e9077c5b.chunk.js",
+    "main.js.map": "/static/js/main.e9077c5b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.82f5791a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.82f5791a.js.map",
+    "static/js/2.80186afc.chunk.js": "/static/js/2.80186afc.chunk.js",
+    "static/js/2.80186afc.chunk.js.map": "/static/js/2.80186afc.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.85ab10f48a17455f5e883d5cd3a031a1.js": "/precache-manifest.85ab10f48a17455f5e883d5cd3a031a1.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.11255c62.chunk.css.map": "/static/css/main.11255c62.chunk.css.map",
+    "static/js/2.80186afc.chunk.js.LICENSE": "/static/js/2.80186afc.chunk.js.LICENSE",
+    "static/media/App.module.scss": "/static/media/PressStart2P-Regular.2c404fd0.ttf",
+    "static/media/email.bc6bf3ed.svg": "/static/media/email.bc6bf3ed.svg",
+    "static/media/github.42c9ead6.svg": "/static/media/github.42c9ead6.svg",
+    "static/media/home.d011faf2.svg": "/static/media/home.d011faf2.svg",
+    "static/media/linked.f3edbace.svg": "/static/media/linked.f3edbace.svg",
+    "static/media/phone.9a8c3f40.svg": "/static/media/phone.9a8c3f40.svg",
+    "static/media/skype.f785b3ee.svg": "/static/media/skype.f785b3ee.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.82f5791a.js",
+    "static/js/2.80186afc.chunk.js",
+    "static/css/main.11255c62.chunk.css",
+    "static/js/main.e9077c5b.chunk.js"
+  ]
+}
