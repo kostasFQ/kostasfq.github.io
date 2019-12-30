@@ -38,6 +38,7 @@ const Input = forwardRef( (props, ref) => {
         autoFocus
         onBlur={blurred}
         onFocus={focused}
+        spellCheck="false"
       />
     </div>
   )

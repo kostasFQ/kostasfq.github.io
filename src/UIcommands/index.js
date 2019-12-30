@@ -4,7 +4,7 @@ import { socials } from 'assets/resume.json';
 const toGitHub = () => { window.open(socials.github) };
 const toLinked = () => { window.open(socials.linkedin) };
 const download = () => {
-  const x = __dirname;
+  const x = __dirname + 'index.html';
   console.log(x)
   // const file = new File(["test"], "resume.pdf", {type: "application/pdf; charset=utf-8"});
   // saveAs(file);

@@ -5,11 +5,13 @@
   align-items: center;
 
   &__line {
-    width: 0;
-    height: 0;
-    opacity: 0;
-
-    border: solid green 1px;
+    height: 24px;
+    border: none;
+    position: absolute;
+    width: 80%;
+    background-color: transparent;
+    outline: none;
+    color: transparent;
   }
 }
 
