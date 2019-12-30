@@ -3,4 +3,7 @@
   padding-top: .3em;
   height: 300px;
 
+  @media print {
+    display: none;
+  }
 }

@@ -1,12 +1,11 @@
 import React from 'react';
 import Field from 'components/Field';
-import { contacts } from 'assets/resume.json';
+import Icon from 'components/Icons';
+import { contacts, socials } from 'assets/resume.json';
 
 import styles from './Contacts.module.scss';
 
-import Icon from 'components/Icons';
 const Contacts = () => {
-  
   return (
     <div className={styles.contacts}>
       <Field desc='Contacts:' speed={100}/>
@@ -22,10 +21,10 @@ const Contacts = () => {
           }
         </ul>
         <div className={styles.contacts__container__socials}>
-          <a href='https://github.com/kostasFQ' target='blank' className={styles.contacts__container__socials__item}>
-          <Icon type='github' />
+          <a href={socials.github} target='blank' className={styles.contacts__container__socials__item}>
+            <Icon type='github' />
           </a>
-          <a href='https://www.linkedin.com/in/kanstantsin-asipenka-7b140611b/' target='blank' className={styles.contacts__container__socials__item}>
+          <a href={socials.linkedin} target='blank' className={styles.contacts__container__socials__item}>
             <Icon type='linkedIn' />
           </a>
         </div>

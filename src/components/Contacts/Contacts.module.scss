@@ -5,6 +5,10 @@
   &__container {
     display: flex;
 
+    @media (max-width: 480px) {
+      flex-direction: column;
+    }
+
     &__list {
       font-size: x-small;
       width: 50%;
