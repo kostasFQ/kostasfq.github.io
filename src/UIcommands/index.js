@@ -3,18 +3,18 @@ import { socials } from 'assets/resume.json';
 
 const toGitHub = () => { window.open(socials.github) };
 const toLinked = () => { window.open(socials.linkedin) };
-const download = () => {
-  const x = __dirname + 'index.html';
-  console.log(x)
+const print = () => { window.print(); }
+
+const save = () => {
+  console.log('save')
   // const file = new File(["test"], "resume.pdf", {type: "application/pdf; charset=utf-8"});
   // saveAs(file);
 };
-const print = () => { window.print(); }
 
 export const commands = {
-  'download': download,
   'open gitHub': toGitHub,
   'open linkedIn': toLinked,
+  'save': save,
   'print': print
 }
 
