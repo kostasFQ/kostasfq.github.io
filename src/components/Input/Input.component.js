@@ -25,7 +25,6 @@ const Input = forwardRef( (props, ref) => {
 
   return (
     <div className={styles.input}>
-      >
       <div className={styles.cmd}>
         <span>{props.value}</span>
         <div className={cn(styles.cursor, { [styles.cursor__inactive]: !isFocused, [styles.cursor__hide]: isHide && isFocused } )}></div>

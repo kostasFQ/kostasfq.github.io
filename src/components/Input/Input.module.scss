@@ -4,9 +4,13 @@
   height: 24px;
   align-items: center;
 
+  &::before {
+    content: '>'
+  }
+
   &__line {
     height: 24px;
-    border: none;
+    border: 1px red solid;
     position: absolute;
     width: 80%;
     background-color: transparent;
