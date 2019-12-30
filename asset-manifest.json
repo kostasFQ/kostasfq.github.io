@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/kostasFQ/resume.git/static/css/main.d581520a.chunk.css",
+    "main.js": "/kostasFQ/resume.git/static/js/main.8d6356c5.chunk.js",
+    "main.js.map": "/kostasFQ/resume.git/static/js/main.8d6356c5.chunk.js.map",
+    "runtime-main.js": "/kostasFQ/resume.git/static/js/runtime-main.8f1afae7.js",
+    "runtime-main.js.map": "/kostasFQ/resume.git/static/js/runtime-main.8f1afae7.js.map",
+    "static/js/2.7732ac1a.chunk.js": "/kostasFQ/resume.git/static/js/2.7732ac1a.chunk.js",
+    "static/js/2.7732ac1a.chunk.js.map": "/kostasFQ/resume.git/static/js/2.7732ac1a.chunk.js.map",
+    "index.html": "/kostasFQ/resume.git/index.html",
+    "precache-manifest.d66ec55a97a987ffd5849dc2c9c9e6a2.js": "/kostasFQ/resume.git/precache-manifest.d66ec55a97a987ffd5849dc2c9c9e6a2.js",
+    "service-worker.js": "/kostasFQ/resume.git/service-worker.js",
+    "static/css/main.d581520a.chunk.css.map": "/kostasFQ/resume.git/static/css/main.d581520a.chunk.css.map",
+    "static/js/2.7732ac1a.chunk.js.LICENSE": "/kostasFQ/resume.git/static/js/2.7732ac1a.chunk.js.LICENSE",
+    "static/media/App.module.scss": "/kostasFQ/resume.git/static/media/PressStart2P-Regular.2c404fd0.ttf",
+    "static/media/email.bc6bf3ed.svg": "/kostasFQ/resume.git/static/media/email.bc6bf3ed.svg",
+    "static/media/github.42c9ead6.svg": "/kostasFQ/resume.git/static/media/github.42c9ead6.svg",
+    "static/media/home.d011faf2.svg": "/kostasFQ/resume.git/static/media/home.d011faf2.svg",
+    "static/media/linked.f3edbace.svg": "/kostasFQ/resume.git/static/media/linked.f3edbace.svg",
+    "static/media/phone.9a8c3f40.svg": "/kostasFQ/resume.git/static/media/phone.9a8c3f40.svg",
+    "static/media/skype.f785b3ee.svg": "/kostasFQ/resume.git/static/media/skype.f785b3ee.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8f1afae7.js",
+    "static/js/2.7732ac1a.chunk.js",
+    "static/css/main.d581520a.chunk.css",
+    "static/js/main.8d6356c5.chunk.js"
+  ]
+}
