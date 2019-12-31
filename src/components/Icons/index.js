@@ -1,27 +1,33 @@
 import React from 'react';
-import { ReactComponent as Phone } from 'components/Icons/phone.svg';
-import { ReactComponent as Email } from 'components/Icons/email.svg';
-import { ReactComponent as Home } from 'components/Icons/home.svg';
-import { ReactComponent as Skype } from 'components/Icons/skype.svg';
-import { ReactComponent as Github } from 'components/Icons/github.svg';
-import { ReactComponent as Linked } from 'components/Icons/linked.svg';
+import PhoneIcon from './phone.icon';
+import SkypeIcon from './skype.icon';
+import LinkedInIcon from './linkedIn.icon';
+import HomeIcon from './home.icon';
+import GitHubIcon from './gitHub.icon';
+import EmailIcon from './email.icon';
 
-const Icon = ({ type, className }) => {
+const Icon = ({
+  style = {},
+  width = "24px",
+  height = "24px",
+  className = "",
+  type
+}) => {
   switch(type) {
     case 'phone':
-      return<Phone />
-    case 'email':
-      return <Email />
-    case 'home':
-      return <Home />
+      return ( <PhoneIcon width={width} style={style} height={height} fill={className} className={className} /> )
     case 'skype':
-      return <Skype />
-    case 'github':
-      return <Github />
+      return ( <SkypeIcon width={width} style={style} height={height} fill={className} className={className} /> )
     case 'linkedIn':
-      return <Linked />
+      return ( <LinkedInIcon width={width} style={style} height={height} fill={className} className={className} /> )
+    case 'home':
+      return ( <HomeIcon width={width} style={style} height={height} fill={className} className={className} /> )
+    case 'gitHub':
+      return ( <GitHubIcon width={width} style={style} height={height} fill={className} className={className} /> )
+    case 'email':
+      return ( <EmailIcon width={width} style={style} height={height} fill={className} className={className} /> )
     default:
-    return ''  
+      return ''  
   }
 }
 

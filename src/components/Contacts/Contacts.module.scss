@@ -5,6 +5,14 @@
   &__container {
     display: flex;
 
+    &__icon {
+      fill: rgb(121, 172, 45);
+      
+      @media print {
+        fill: black;
+      }
+    }
+
     @media (max-width: 480px) {
       flex-direction: column;
     }

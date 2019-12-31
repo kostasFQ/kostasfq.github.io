@@ -14,18 +14,18 @@ const Contacts = () => {
           {
             Object.keys(contacts).map(i => (
               <li className={styles.contacts__container__list__item} key={i}>
-                <Icon type={i} /><Field desc={contacts[i]} speed={100} />
+                <Icon type={i} className={styles.contacts__container__icon} /><Field desc={contacts[i]} speed={100} />
               </li>
               )
             )
           }
         </ul>
         <div className={styles.contacts__container__socials}>
-          <a href={socials.github} target='blank' className={styles.contacts__container__socials__item}>
-            <Icon type='github' />
+          <a href={socials.gitHub} target='blank' className={styles.contacts__container__socials__item}>
+            <Icon type='gitHub' className={styles.contacts__container__icon} height='48px' width='48px'/>
           </a>
-          <a href={socials.linkedin} target='blank' className={styles.contacts__container__socials__item}>
-            <Icon type='linkedIn' />
+          <a href={socials.linkedIn} target='blank' className={styles.contacts__container__socials__item}>
+            <Icon type='linkedIn' className={styles.contacts__container__icon} height='48px' width='48px'/>
           </a>
         </div>
       </div>
