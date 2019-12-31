@@ -1,29 +1,23 @@
 {
   "files": {
-    "main.css": "/build/static/css/main.4206ffc1.chunk.css",
-    "main.js": "/build/static/js/main.e9077c5b.chunk.js",
-    "main.js.map": "/build/static/js/main.e9077c5b.chunk.js.map",
+    "main.css": "/build/static/css/main.75669ca5.chunk.css",
+    "main.js": "/build/static/js/main.7ba79640.chunk.js",
+    "main.js.map": "/build/static/js/main.7ba79640.chunk.js.map",
     "runtime-main.js": "/build/static/js/runtime-main.364518c2.js",
     "runtime-main.js.map": "/build/static/js/runtime-main.364518c2.js.map",
-    "static/js/2.80186afc.chunk.js": "/build/static/js/2.80186afc.chunk.js",
-    "static/js/2.80186afc.chunk.js.map": "/build/static/js/2.80186afc.chunk.js.map",
+    "static/js/2.a690add1.chunk.js": "/build/static/js/2.a690add1.chunk.js",
+    "static/js/2.a690add1.chunk.js.map": "/build/static/js/2.a690add1.chunk.js.map",
     "index.html": "/build/index.html",
-    "precache-manifest.8142210e3098230352bd0dc1f900df5b.js": "/build/precache-manifest.8142210e3098230352bd0dc1f900df5b.js",
+    "precache-manifest.b601ebc620aa3af1bdbff806d6201fe7.js": "/build/precache-manifest.b601ebc620aa3af1bdbff806d6201fe7.js",
     "service-worker.js": "/build/service-worker.js",
-    "static/css/main.4206ffc1.chunk.css.map": "/build/static/css/main.4206ffc1.chunk.css.map",
-    "static/js/2.80186afc.chunk.js.LICENSE": "/build/static/js/2.80186afc.chunk.js.LICENSE",
-    "static/media/App.module.scss": "/build/static/media/PressStart2P-Regular.2c404fd0.ttf",
-    "static/media/email.bc6bf3ed.svg": "/build/static/media/email.bc6bf3ed.svg",
-    "static/media/github.42c9ead6.svg": "/build/static/media/github.42c9ead6.svg",
-    "static/media/home.d011faf2.svg": "/build/static/media/home.d011faf2.svg",
-    "static/media/linked.f3edbace.svg": "/build/static/media/linked.f3edbace.svg",
-    "static/media/phone.9a8c3f40.svg": "/build/static/media/phone.9a8c3f40.svg",
-    "static/media/skype.f785b3ee.svg": "/build/static/media/skype.f785b3ee.svg"
+    "static/css/main.75669ca5.chunk.css.map": "/build/static/css/main.75669ca5.chunk.css.map",
+    "static/js/2.a690add1.chunk.js.LICENSE": "/build/static/js/2.a690add1.chunk.js.LICENSE",
+    "static/media/App.module.scss": "/build/static/media/PressStart2P-Regular.2c404fd0.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.364518c2.js",
-    "static/js/2.80186afc.chunk.js",
-    "static/css/main.4206ffc1.chunk.css",
-    "static/js/main.e9077c5b.chunk.js"
+    "static/js/2.a690add1.chunk.js",
+    "static/css/main.75669ca5.chunk.css",
+    "static/js/main.7ba79640.chunk.js"
   ]
 }
