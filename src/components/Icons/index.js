@@ -5,6 +5,7 @@ import LinkedInIcon from './linkedIn.icon';
 import HomeIcon from './home.icon';
 import GitHubIcon from './gitHub.icon';
 import EmailIcon from './email.icon';
+import TelegramIcon from './telegram.icon';
 
 const Icon = ({
   style = {},
@@ -26,6 +27,8 @@ const Icon = ({
       return ( <GitHubIcon width={width} style={style} height={height} fill={className} className={className} /> )
     case 'email':
       return ( <EmailIcon width={width} style={style} height={height} fill={className} className={className} /> )
+    case 'telegram':
+      return ( <TelegramIcon width={width} style={style} height={height} fill={className} className={className} /> )
     default:
       return ''  
   }
