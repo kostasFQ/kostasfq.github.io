@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/build/static/css/main.ae5a6117.chunk.css",
+    "main.css": "/build/static/css/main.fefa5d51.chunk.css",
     "main.js": "/build/static/js/main.ca73125e.chunk.js",
     "main.js.map": "/build/static/js/main.ca73125e.chunk.js.map",
     "runtime-main.js": "/build/static/js/runtime-main.364518c2.js",
@@ -8,16 +8,16 @@
     "static/js/2.a690add1.chunk.js": "/build/static/js/2.a690add1.chunk.js",
     "static/js/2.a690add1.chunk.js.map": "/build/static/js/2.a690add1.chunk.js.map",
     "index.html": "/build/index.html",
-    "precache-manifest.9372116b66b711d69255b7a0c1721207.js": "/build/precache-manifest.9372116b66b711d69255b7a0c1721207.js",
+    "precache-manifest.13e3e467763a625d11fa66c5ec25582e.js": "/build/precache-manifest.13e3e467763a625d11fa66c5ec25582e.js",
     "service-worker.js": "/build/service-worker.js",
-    "static/css/main.ae5a6117.chunk.css.map": "/build/static/css/main.ae5a6117.chunk.css.map",
+    "static/css/main.fefa5d51.chunk.css.map": "/build/static/css/main.fefa5d51.chunk.css.map",
     "static/js/2.a690add1.chunk.js.LICENSE": "/build/static/js/2.a690add1.chunk.js.LICENSE",
     "static/media/App.module.scss": "/build/static/media/PressStart2P-Regular.2c404fd0.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.364518c2.js",
     "static/js/2.a690add1.chunk.js",
-    "static/css/main.ae5a6117.chunk.css",
+    "static/css/main.fefa5d51.chunk.css",
     "static/js/main.ca73125e.chunk.js"
   ]
 }
