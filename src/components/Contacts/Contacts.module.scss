@@ -66,6 +66,10 @@
       align-items: flex-end;
       justify-content: flex-end;
 
+      @media (max-width: 480px) {
+        display: block;
+      }
+
       &__item {
         margin: 0 5px 0 5px;
       }
