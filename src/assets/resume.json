@@ -21,8 +21,22 @@
   "experience": [
     {
       "organization": "OnePoint LTD",
+      "position": "Front-end developer",
+      "period": "07/2019 – Present",
+      "location": "Brest",
+      "description": "Tool for manage games.",
+      "responsibility": [
+        "Development front-end using React/Redux stack.",
+        "Creating and extension of custom ANTd components",
+        "Bug fixing",
+        "Development API request/response models"
+      ],
+      "stack": "JS(ES6+), Lodash, NPM, WebPack, React/Redux, Formik, ANTd, Babel, ESLint, Git, HTML5, CSS3, SASS."
+    },
+    {
+      "organization": "OnePoint LTD",
       "position": "QA engineer",
-      "period": "07/2018 – Present",
+      "period": "07/2018 – 07/2019",
       "location": "Brest",
       "description": "Tool for manage games.",
       "responsibility": [
@@ -30,10 +44,9 @@
         "Development tests to checking the basic requirement of business logic, GUI functional and Regression testing. ( Node.js, Webdriver.io).",
         "Responses validation from back-end in CRUD operation. (Node.js, Chai, Mocha).",
         "Planning Regression and Functional Testing.",
-        "Creating test cases to ensure the proper test coverage of functional requirements.",
-        "Development front-end using React."
+        "Creating test cases to ensure the proper test coverage of functional requirements."
       ],
-      "stack": "NodeJS, JS(ES5-7), Jest, Lodash, NPM, WebPack, React/Redux, Babel, ESLint, Git, HTML5, CSS3, SASS."
+      "stack": "NodeJS, JS(ES6+), Jest, Chai, Mocha, Lodash, NPM, Webdriver.io"
     },
     {
       "organization": "CyberGenesis",

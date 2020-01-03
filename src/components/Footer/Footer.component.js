@@ -38,7 +38,7 @@ function Footer() {
 
   return (
     <div className={styles.footer} onKeyPress={keyPress} onClick={clickOnFooter}>
-      <Field desc='Available commands:' />
+      <Field desc='For contacts to me or watching my profiles you can use this available commands:' />
       <CommandsList />
       <Input onChange={setCommandValue} value={command} ref={ref} click={click}/>
       {error === '' ? '' : <div className={styles.footer__error}>{error}</div>}

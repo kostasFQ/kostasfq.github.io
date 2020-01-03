@@ -2,6 +2,10 @@
   border-top: solid 2px rgb(121, 172, 45);
   padding-top: .3em;
   height: 300px;
+      
+  @media print {
+    border-top: solid 1px black;
+  }
 
   @media print {
     display: none;

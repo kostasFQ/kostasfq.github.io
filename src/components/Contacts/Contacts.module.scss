@@ -1,6 +1,10 @@
 .contacts{
   padding-top: .3em;
   border-top: solid 2px rgb(121, 172, 45);
+      
+  @media print {
+    border-top: solid 1px black;
+  }
   
   &__container {
     display: flex;
@@ -20,6 +24,14 @@
     &__list {
       font-size: x-small;
       width: 50%;
+
+      @media print {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        margin: 0 0 5px 0;
+        padding: 0;
+      }
       
       &__item {
         display: flex;
@@ -27,8 +39,17 @@
         padding: .2em;
         list-style: none;
 
+        @media print {
+          width: 350px;
+          padding: 0 .2em 0 0;
+        }
+
         & > div {
           margin-left: 1em;
+
+          @media print {
+            margin: .2em;
+          }
         }
       }
     }
@@ -42,6 +63,7 @@
       &__item {
         margin: 0 5px 0 5px;
       }
+
       @media print {
         display: none;
       }

@@ -10,8 +10,8 @@ function Experience() {
       <Field desc='Work experience:' speed={100}/>
       <ul className={styles.experience__list}>
         {
-          Object.keys(experience).map(i => (
-            <li key={experience[i].organization} className={styles.experience__list__item}>
+          Object.keys(experience).map( (i, index) => (
+            <li key={`${experience[i].organization}${index}`} className={styles.experience__list__item}>
               <Field desc={experience[i].organization} speed={100} />
               <Field name='Position' desc={experience[i].position} speed={100} />
               <Field desc={experience[i].period} speed={100} className={styles.experience__list__item_small}/>

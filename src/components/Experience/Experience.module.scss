@@ -1,14 +1,27 @@
 .experience {
   border-top: solid 2px rgb(121, 172, 45);
-  padding-top: .3em;
+  padding: .3em 0 .2em 0;
+      
+  @media print {
+    border-top: solid 1px black;
+    padding: 0 0 20mm 0;
+  }
 
   &__list {
     font-size: small;
     list-style-type: '# ';
 
+    @media print {
+      margin: 0;
+    }
+
     &__item {
       margin: 1em 0 0 1em;
-
+      
+      @media print {
+        margin: 0;
+      }
+    
       &__sublist {
         list-style-type: '- ';
       }

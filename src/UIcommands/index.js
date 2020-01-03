@@ -8,9 +8,9 @@ const telegram = () => { window.open('https://web.telegram.org//#/im?p=@kostasfq
 
 
 export const commands = {
-  'gitHub': toGitHub,
-  'linkedIn': toLinked,
   'print': print,
   'email': email,
-  'chat': telegram
+  'telegram': telegram,
+  'gitHub': toGitHub,
+  'linkedIn': toLinked
 }

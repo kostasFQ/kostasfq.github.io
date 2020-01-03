@@ -1,10 +1,17 @@
 .education {
   border-top: solid 2px rgb(121, 172, 45);
-  padding-top: .3em;
-  min-height: 80px;
+  padding: .3em 0 .2em 0;
+      
+  @media print {
+    border-top: solid 1px black;
+  }
 
   &__container {
     padding: 1em 0 0 40px;
     font-size: small;
+
+    @media print {
+      padding: 0 0 0 40px;
+    }
   }
 }
