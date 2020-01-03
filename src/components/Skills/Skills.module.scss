@@ -3,7 +3,6 @@
   padding-top: .3em;
       
   @media print {
-    break-before: always;
     border-top: solid 1px black;
   }
 
@@ -13,7 +12,7 @@
     flex-wrap: wrap;
     list-style: none;
     font-size: small;
-
+    
     &__item {
       margin: 0 .5em .2em .5em;
       padding: .2em .5em;
