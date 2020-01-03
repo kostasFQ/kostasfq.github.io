@@ -21,7 +21,7 @@ function Footer() {
 
   const keyPress = (e) => {
     const { key } = e;
-    const currentCommand = commands[command];
+    const currentCommand = commands[command.toLowerCase()];
 
     if (key === 'Enter') {
       if (!!currentCommand) {

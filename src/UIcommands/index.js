@@ -11,6 +11,6 @@ export const commands = {
   'print': print,
   'email': email,
   'telegram': telegram,
-  'gitHub': toGitHub,
-  'linkedIn': toLinked
+  'github': toGitHub,
+  'linkedin': toLinked
 }
