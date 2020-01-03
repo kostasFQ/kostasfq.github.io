@@ -3,6 +3,7 @@
   padding-top: .3em;
       
   @media print {
+    break-before: always;
     border-top: solid 1px black;
   }
 
