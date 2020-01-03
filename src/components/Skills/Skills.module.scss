@@ -20,6 +20,10 @@
       border-radius: 5px;
       color: black;
       background-color: rgb(121, 172, 45);
+      
+      @media print {
+        border: solid 1px black;
+      }
     }
   }
 }
