@@ -4,6 +4,7 @@
       
   @media print {
     border-top: solid 1px black;
+    break-before: always;
   }
 
   &__list {
