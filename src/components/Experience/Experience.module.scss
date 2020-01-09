@@ -1,6 +1,7 @@
 .experience {
   border-top: solid 2px rgb(121, 172, 45);
   padding: .3em 0 .2em 0;
+  page-break-after: always;
   
   @media print {
     border-top: solid 1px black;

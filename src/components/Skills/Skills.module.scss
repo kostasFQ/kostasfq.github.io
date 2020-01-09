@@ -1,7 +1,7 @@
 .skills {
   border-top: solid 2px rgb(121, 172, 45);
   padding-top: .3em;
-      
+
   @media print {
     border-top: solid 1px black;
   }
@@ -12,6 +12,10 @@
     flex-wrap: wrap;
     list-style: none;
     font-size: small;
+      
+    @media print {
+      font-size: medium;   
+    }
     
     &__item {
       margin: 0 .5em .2em .5em;

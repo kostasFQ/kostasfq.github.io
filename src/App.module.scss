@@ -13,6 +13,9 @@
   
   &__container {
     width: 80%;
+    @media print {
+      width: 100%;
+    }
   }
 
   @media print {
