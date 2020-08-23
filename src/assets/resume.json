@@ -7,7 +7,8 @@
     "skype": "tria-atista",
     "email": "kostasfq@gmail.com",
     "home": "Belarus, Brest.",
-    "telegram": "@kostasfq"
+    "telegram": "@kostasfq",
+    "whatsApp": "kostasfq"
   },
   "socials": {
     "gitHub": "https://github.com/kostasFQ",
@@ -20,6 +21,20 @@
   },
   "experience": [
     {
+      "organization": "Stravy",
+      "position": "Front-end developer",
+      "period": "02/2019 – Present",
+      "location": "remote (startup)",
+      "description": "System for restaurants ordering.",
+      "responsibility": [
+        "Development application's architecture.",
+        "Supporting all modern browsers",
+        "Code reviews",
+        "Implementation of new features and support of existing."
+      ],
+      "stack": "ReactJS, Next.js, JS(ES6+), moment, Chakra-ui, Antd, ESlint, Prettier, Husky, SASS"
+    },
+    {
       "organization": "OnePoint LTD",
       "position": "Front-end developer",
       "period": "07/2019 – Present",
@@ -31,7 +46,7 @@
         "Bug fixing",
         "Development API request/response models"
       ],
-      "stack": "JS(ES6+), Lodash, NPM, WebPack, React/Redux, Formik, ANTd, Babel, ESLint, Git, HTML5, CSS3, SASS."
+      "stack": "JS(ES6+), Lodash, NPM, WebPack, React/Redux, Formik, Antd, Babel, ESLint, Git, HTML5, CSS3, SASS."
     },
     {
       "organization": "CyberGenesis",
@@ -63,11 +78,24 @@
       "stack": "NodeJS, JS(ES6+), Jest, Chai, Mocha, Lodash, NPM, Webdriver.io"
     },
     {
+      "organization": "Freelance",
+      "position": "Front-end developer",
+      "period": "01/2018 – 07/2018",
+      "location": "remote",
+      "description": "Working on small different projects, such a landing page, or bug fixing",
+      "responsibility": [
+        "Bug fixing.",
+        "Solving minor problems in applocation logic.",
+        "Writing some scripts for different neeeds." 
+      ],
+      "stack": "JS(ES6+), NPM, Git, HTML5, CSS3."
+    },
+    {
       "organization": "B&T solutions",
       "position": "Front-end developer",
-      "period": "10/2017 – 04/2018",
+      "period": "10/2017 – 01/2018",
       "location": "remote",
-      "description": " IoT. Development GUI of app for smart houses.",
+      "description": "IoT. Development GUI of app for smart houses.",
       "responsibility": [
         "Cross-browser supporting, implementing business logic for GUI.",
         "Making pages that are cross-browser compatible.",
@@ -77,7 +105,7 @@
     }
   ],
   "skills": [ "ReactJS", "Redux", "Redux-thunk", "Node.js", "Express.js", "Lodash", "Axios", "NPM", "YARN", "Docker", "Babel", "ESLint",
-    "Mocha", "Chai", "Webpack", "MongoDB", "Mongoose", "GIT"
+    "Mocha", "Chai", "Webpack", "MongoDB", "Mongoose", "GIT", "Next.js", "Chakra-ui"
   ],
   "languages": [ "Russian", "English", "Polish" ],
   "about": "I've experience with manual, automation testing and front-end development. So I know the weak spots in the development UI, its implementation with a back-end. In current time more preferable for me is development UI using ReactJS.  "
