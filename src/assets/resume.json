@@ -1,7 +1,7 @@
 {
   "name": "Kanstantsin Asipenka",
   "position": "Front-end developer.",
-  "summary": "2+ years of works experience on production as QA engineer and as front-end developer.",
+  "summary": "Down-to-earth developer with almost 3 years of work experience on production as QA engineer and as front-end developer give. I've got experience of work in teams from 2 to 6 teammates and as single developer. Proficient with modern libraries and approaches.",
   "contacts": {
     "phone": "+375336057868",
     "skype": "tria-atista",
@@ -92,8 +92,8 @@
     },
     {
       "organization": "B&T solutions",
-      "position": "Front-end developer",
-      "period": "10/2017 – 01/2018",
+      "position": "HTML coder",
+      "period": "04/2017 – 01/2018",
       "location": "remote",
       "description": "IoT. Development GUI of app for smart houses.",
       "responsibility": [
@@ -108,5 +108,5 @@
     "Mocha", "Chai", "Webpack", "MongoDB", "Mongoose", "GIT", "Next.js", "Chakra-ui"
   ],
   "languages": [ "Russian", "English", "Polish" ],
-  "about": "I've experience with manual, automation testing and front-end development. So I know the weak spots in the development UI, its implementation with a back-end. In current time more preferable for me is development UI using ReactJS.  "
+  "about": "I've experience with testing and front-end development. That gave me knowledge of the weak spots in the development UI, its implementation with a back-end. Now more preferable for me is front-end development by using React/Redux."
 }
