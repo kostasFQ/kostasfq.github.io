@@ -1,7 +1,7 @@
 {
   "name": "Kanstantsin Asipenka",
   "position": "Front-end developer.",
-  "summary": "Down-to-earth developer with almost 3 years of work experience on production as QA engineer and as front-end developer give. I've got experience of work in teams from 2 to 6 teammates and as single developer. Proficient with modern libraries and approaches.",
+  "summary": "I'm a front-end developer with 4 years of work experience on production. I've got work experience in teams from 2 to 6 teammates and as a single developer. Proficient with modern libraries and approaches.",
   "contacts": {
     "phone": "+375336057868",
     "skype": "tria-atista",
@@ -24,39 +24,26 @@
       "organization": "Stravy",
       "position": "Front-end developer",
       "period": "02/2020 – Present",
-      "location": "remote (startup)",
-      "description": "System for restaurants ordering.",
+      "location": "remote",
+      "description": "An application for booking tables in restaurants.",
       "responsibility": [
         "Development application's architecture.",
         "Supporting all modern browsers",
         "Code reviews",
-        "Implementation of new features and support of existing."
+        "Implementation of new features and support of existing.",
+        "Bug fixing"
       ],
-      "stack": "ReactJS, Next.js, JS(ES6+), moment, Chakra-ui, Antd, ESlint, Prettier, Husky, SASS"
-    },
-    {
-      "organization": "OnePoint LTD",
-      "position": "Front-end developer",
-      "period": "07/2019 – Present",
-      "location": "Brest",
-      "description": "Tool for manage games, bonuses, customers.",
-      "responsibility": [
-        "Development front-end using React/Redux stack.",
-        "Creating and extension of custom ANTd components",
-        "Bug fixing",
-        "Development API request/response models"
-      ],
-      "stack": "JS(ES6+), Lodash, NPM, WebPack, React/Redux, Formik, Antd, Babel, ESLint, Git, HTML5, CSS3, SASS."
+      "stack": "ReactJS, Next.js, JS(ES6+), moment, Chakra-ui, Antd, ESlint, Prettier, Husky, SASS, Formik, Webpack"
     },
     {
       "organization": "CyberGenesis",
       "position": "Front-end developer",
       "period": "02/2019 – 08/2019",
       "location": "remote",
-      "description": "System of storing and processing documents.",
+      "description": "System for storage and processing of internal documents and workflow.",
       "responsibility": [
-        "Development of app architecture, FE development.",
-        "Implementation of the interaction between FE with BE.",
+        "Development of app architecture and approaches.",
+        "Implementation of the interaction between front-end and back-end.",
         "Create responsive and dynamic user interface.",
         "Cross-browser supporting, implementing business logic for GUI."
       ],
@@ -64,49 +51,50 @@
     },
     {
       "organization": "OnePoint LTD",
-      "position": "QA engineer",
-      "period": "07/2018 – 07/2019",
+      "position": "Front-end developer",
+      "period": "07/2018 – Present",
       "location": "Brest",
-      "description": "Tool for manage games.",
+      "description": "An application for managing and processing statistics of online casinos",
       "responsibility": [
-        "The project on creating, managing and supporting games for online casino with different users roles such a manager, administrator, creator.",
-        "Development tests to checking the basic requirement of business logic, GUI functional and Regression testing. ( Node.js, Webdriver.io).",
-        "Responses validation from back-end in CRUD operation. (Node.js, Chai, Mocha).",
-        "Planning Regression and Functional Testing.",
-        "Creating test cases to ensure the proper test coverage of functional requirements."
+        "Development of UI by React/Redux stack.",
+        "Creating of new components based on Antd library",
+        "Improving code style",
+        "Bug fixing",
+        "Development of the object's models of relation between front-end and back-end"
       ],
-      "stack": "NodeJS, JS(ES6+), Jest, Chai, Mocha, Lodash, NPM, Webdriver.io"
+      "stack": "JS(ES6+), Lodash, NPM, WebPack, React/Redux, Formik, Antd, Babel, ESLint, Git, HTML5, CSS3, SASS, Apollo, Hasura"
     },
     {
       "organization": "Freelance",
       "position": "Front-end developer",
-      "period": "01/2018 – 07/2018",
+      "period": "08/2017 – 07/2018",
       "location": "remote",
       "description": "Working on small different projects, such a landing page, or bug fixing",
       "responsibility": [
-        "Bug fixing.",
-        "Solving minor problems in applocation logic.",
-        "Writing some scripts for different neeeds." 
+        "Working on some small prodjects.",
+        "Writing some scripts for different neeeds.",
+        "Development of custom components and modules.",
+        "QA expertise."
       ],
-      "stack": "JS(ES6+), NPM, Git, HTML5, CSS3."
+      "stack": "JS(ES6+), NPM, Git, HTML5, CSS3, React, AngularJS"
     },
     {
       "organization": "B&T solutions",
       "position": "HTML coder",
-      "period": "04/2017 – 01/2018",
+      "period": "04/2016 – 08/2017",
       "location": "remote",
       "description": "IoT. Development GUI of app for smart houses.",
       "responsibility": [
-        "Cross-browser supporting, implementing business logic for GUI.",
-        "Making pages that are cross-browser compatible.",
-        "Creating components for custom library."
+        "Supporting of cross-browser layouts.",
+        "Creating components for own custom library.",
+        "Combining responsibility with the QA position."
       ],
       "stack": "ReactJS, JS(ES6+), NPM, ESLint, Git, HTML5, CSS3, SASS."
     }
   ],
   "skills": [ "ReactJS", "Redux", "Redux-thunk", "Node.js", "Express.js", "Lodash", "Axios", "NPM", "YARN", "Docker", "Babel", "ESLint",
-    "Mocha", "Chai", "Webpack", "MongoDB", "Mongoose", "GIT", "Next.js", "Chakra-ui"
+    "Mocha", "Chai", "Webpack", "MongoDB", "Mongoose", "GIT", "Next.js", "Chakra-ui", "Apollo"
   ],
   "languages": [ "Russian", "English", "Polish" ],
-  "about": "I've experience with testing and front-end development. That gave me knowledge of the weak spots in the development UI, its implementation with a back-end. Now more preferable for me is front-end development by using React/Redux."
+  "about": "I prefer think firstly and after that do. I like jorneys, books and BBQ . I'm responsible for my promises. And I try to learn something new every day"
 }
